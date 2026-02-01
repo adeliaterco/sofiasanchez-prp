@@ -186,12 +186,12 @@ export default function Result({ onNavigate }: ResultProps) {
             if (vslPlaceholder) {
                 vslPlaceholder.innerHTML = `
                     <div style="position: relative; width: 100%; max-width: 400px; margin: 0 auto; aspect-ratio: 9 / 16; background: #000; border-radius: 8px; overflow: hidden;">
-                        <vturb-smartplayer id="vid-696e725eedc67029da1b185d" style="display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></vturb-smartplayer>
+                        <vturb-smartplayer id="vid-697ef6611385ff513705213e" style="display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></vturb-smartplayer>
                     </div>
                 `;
-                if (!document.querySelector('script[src*="696e725eedc67029da1b185d"]')) {
+                if (!document.querySelector('script[src*="697ef6611385ff513705213e"]')) {
                     const s = document.createElement("script");
-                    s.src = "https://scripts.converteai.net/94d0eb5d-7a54-4dda-9f5b-5258dcaf0fde/players/696e725eedc67029da1b185d/v4/player.js";
+                    s.src = "https://scripts.converteai.net/bcefc7c8-d006-4999-b359-3e2daa0b036a/players/697ef6611385ff513705213e/v4/player.js";
                     s.async = true;
                     document.head.appendChild(s);
                 }
