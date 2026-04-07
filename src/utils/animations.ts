@@ -41,7 +41,7 @@ export const playKeySound = () => {
     console.log('Audio not supported');
   }
 };
-
+ 
 export const getHotmartUrl = (plan?: number): string => {
   // Define os links base para cada plano (por enquanto repetidos - trocar depois)
   const baseUrls: { [key: number]: string } = {
