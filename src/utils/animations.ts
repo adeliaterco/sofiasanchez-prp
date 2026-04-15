@@ -46,11 +46,11 @@ export const getHotmartUrl = (plan?: number): string => {
   // Define os links base para cada plano (por enquanto repetidos - trocar depois)
   const baseUrls: { [key: number]: string } = {
     14: 'https://pay.hotmart.com/S105366311M?off=8e5zmlln', // ← TROCAR LINK DO PLANO $14
-    24: 'https://pay.hotmart.com/S105366311M?off=r664wsx4'  // ← TROCAR LINK DO PLANO $24
+    27: 'https://pay.hotmart.com/S105366311M?off=r664wsx4'  // ← TROCAR LINK DO PLANO $24
   };
   
   // Se não passar plano ou plano inválido, usa o de $27 como padrão
-  const baseUrl = plan && baseUrls[plan] ? baseUrls[plan] : baseUrls[24];
+  const baseUrl = plan && baseUrls[plan] ? baseUrls[plan] : baseUrls[27];
   
   const params = new URLSearchParams(window.location.search);
   const utmParams: string[] = [];

@@ -882,7 +882,7 @@ export default function Result({ onNavigate }: ResultProps) {
                                 <button 
                                     onClick={() => setSelectedPlan(27)}
                                     style={{
-                                        background: selectedPlan === 27 ? 'linear-gradient(135deg, #10b981, #059669)' : 'linear-gradient(135deg, #10b981, #059669)',
+                                        background: selectedPlan === 24 ? 'linear-gradient(135deg, #10b981, #059669)' : 'linear-gradient(135deg, #10b981, #059669)',
                                         color: 'white',
                                         fontSize: 'clamp(1rem, 4vw, 1.25rem)',
                                         fontWeight: '900',
@@ -892,7 +892,7 @@ export default function Result({ onNavigate }: ResultProps) {
                                         cursor: 'pointer',
                                         width: '100%',
                                         transition: 'all 0.3s ease',
-                                        animation: selectedPlan !== 27 ? 'pulse 1.5s infinite' : 'none'
+                                        animation: selectedPlan !== 24 ? 'pulse 1.5s infinite' : 'none'
                                     }}
                                 >
                                     {selectedPlan === 27 ? '✅ PLAN SELECCIONADO' : '🚀 ELEGIR PLAN TOTAL (RECOMENDADO)'}
