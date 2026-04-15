@@ -45,8 +45,8 @@ export const playKeySound = () => {
 export const getHotmartUrl = (plan?: number): string => {
   // Define os links base para cada plano (por enquanto repetidos - trocar depois)
   const baseUrls: { [key: number]: string } = {
-    14: 'https://go.centerpag.com/PPU38CQA482', // ← TROCAR LINK DO PLANO $14
-    27: 'https://go.centerpag.com/PPU38CQA482'  // ← TROCAR LINK DO PLANO $27
+    14: 'https://pay.hotmart.com/S105366311M?off=8e5zmlln', // ← TROCAR LINK DO PLANO $14
+    24: 'https://pay.hotmart.com/S105366311M?off=r664wsx4'  // ← TROCAR LINK DO PLANO $24
   };
   
   // Se não passar plano ou plano inválido, usa o de $27 como padrão
@@ -65,5 +65,5 @@ export const getHotmartUrl = (plan?: number): string => {
   utmParams.push(`sck=${timestamp + 1000}`);
   utmParams.push(`bid=${timestamp + 2000}`);
 
-  return `${baseUrl}?${utmParams.join('&')}`;
+  return `${baseUrl}&${utmParams.join('&')}`;
 };
