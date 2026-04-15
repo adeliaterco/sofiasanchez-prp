@@ -789,13 +789,13 @@ export default function Result({ onNavigate }: ResultProps) {
                             {/* PLANO 2: TOTAL (RECOMENDADO) - $27 */}
                             <div style={{
                                 background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(74, 222, 128, 0.1))',
-                                border: selectedPlan === 27 ? '4px solid #10b981' : '3px solid rgba(16, 185, 129, 0.5)',
+                                border: selectedPlan === 24 ? '4px solid #10b981' : '3px solid rgba(16, 185, 129, 0.5)',
                                 borderRadius: '16px',
                                 padding: 'clamp(20px, 5vw, 28px)',
                                 display: 'flex',
                                 flexDirection: 'column',
                                 position: 'relative',
-                                transform: selectedPlan === 27 ? 'scale(1.05)' : 'scale(1.02)',
+                                transform: selectedPlan === 24 ? 'scale(1.05)' : 'scale(1.02)',
                                 boxShadow: '0 12px 48px rgba(16, 185, 129, 0.4)',
                                 transition: 'all 0.3s ease'
                             }}>
@@ -880,7 +880,7 @@ export default function Result({ onNavigate }: ResultProps) {
                                 </div>
                                 
                                 <button 
-                                    onClick={() => setSelectedPlan(27)}
+                                    onClick={() => setSelectedPlan(24)}
                                     style={{
                                         background: selectedPlan === 24 ? 'linear-gradient(135deg, #10b981, #059669)' : 'linear-gradient(135deg, #10b981, #059669)',
                                         color: 'white',
@@ -895,7 +895,7 @@ export default function Result({ onNavigate }: ResultProps) {
                                         animation: selectedPlan !== 24 ? 'pulse 1.5s infinite' : 'none'
                                     }}
                                 >
-                                    {selectedPlan === 27 ? '✅ PLAN SELECCIONADO' : '🚀 ELEGIR PLAN TOTAL (RECOMENDADO)'}
+                                    {selectedPlan === 24 ? '✅ PLAN SELECCIONADO' : '🚀 ELEGIR PLAN TOTAL (RECOMENDADO)'}
                                 </button>
                             </div>
                         </div>
