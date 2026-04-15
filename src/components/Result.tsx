@@ -849,10 +849,10 @@ export default function Result({ onNavigate }: ResultProps) {
                                         USD 197
                                     </p>
                                     <p style={{ fontSize: 'clamp(2.5rem, 8vw, 3.5rem)', color: '#10b981', fontWeight: '900', margin: '0 0 4px 0', lineHeight: '1' }}>
-                                        $27
+                                        $24
                                     </p>
                                     <p style={{ fontSize: 'clamp(0.85rem, 3.5vw, 1rem)', color: 'rgba(255,255,255,0.7)', margin: '0 0 8px 0' }}>
-                                        USD 0.90 por día (30 días)
+                                        USD 0.80 por día (30 días)
                                     </p>
                                     <p style={{ 
                                         background: 'rgba(234, 179, 8, 0.2)',
