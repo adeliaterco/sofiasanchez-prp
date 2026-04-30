@@ -72,10 +72,6 @@ export default function Landing({ onNavigate }: LandingProps) {
                         </span>
                     </h1>
 
-                    {/* ✅ SUB - NOVO ELEMENTO */}
-                    <p className="subtitle-simple">
-                        Responde 7 preguntas y te digo el <strong>próximo paso exacto</strong> para que ella vuelva a verte.
-                    </p>
 
                     {/* CTA GRANDE COM ANIMAÇÃO DE PULSAÇÃO */}
                     <div className="cta-section-simple">
@@ -85,6 +81,11 @@ export default function Landing({ onNavigate }: LandingProps) {
                             <span className="cta-text">DESCUBRIR SI AÚN HAY TIEMPO</span>
                         </button>
                     </div>
+
+                                        {/* ✅ SUB - NOVO ELEMENTO */}
+                    <p className="subtitle-simple">
+                        Responde 7 preguntas y te digo el <strong>próximo paso exacto</strong> para que ella vuelva a verte.
+                    </p>
 
                 </main>
 
