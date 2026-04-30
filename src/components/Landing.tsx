@@ -67,7 +67,7 @@ export default function Landing({ onNavigate }: LandingProps) {
                         ======================================== */}
                     <h1 className="headline-simple">
                         <span className="headline-text">
-                            <span className="phrase-primary">Crees que ser un hombre <span className="highlight-orange">'bueno, paciente y comprensivo'</span>es lo que la traerá de vuelta?</span><br />
+                            <span className="phrase-primary">Crees que ser un hombre 'bueno, paciente y comprensivo'<span className="highlight-orange">es lo que la traerá de vuelta?</span></span><br />
                             <span className="phrase-secondary">Sí, eso es exactamente lo que el hombre que ella dejó de desear piensa mientras ve <span className="highlight-orange">cómo su propia relación se muere</span>.</span>
                         </span>
                     </h1>
