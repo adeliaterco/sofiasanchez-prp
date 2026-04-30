@@ -67,8 +67,8 @@ export default function Landing({ onNavigate }: LandingProps) {
                         ======================================== */}
                     <h1 className="headline-simple">
                         <span className="headline-text">
-                            El silencio de tu ex <span className="highlight-orange">no significa que sea tarde</span>.<br />
-                            Pero cada día que pasa, <span className="highlight-orange">se vuelve más difícil</span>.
+                            Crees que ser un hombre <span className="highlight-orange">'bueno, paciente y comprensivo'</span>es lo que la traerá de vuelta?<br />
+                            Sí, eso es exactamente lo que el hombre que ella dejó de desear piensa mientras ve <span className="highlight-orange">cómo su propia relación se muere</span>.
                         </span>
                     </h1>
 
